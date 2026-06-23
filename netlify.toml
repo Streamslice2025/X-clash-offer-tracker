@@ -1,0 +1,9 @@
+[build]
+  base    = "xclash-offer-tracker"
+  command = "npm install && npm run build"
+  publish = "xclash-offer-tracker/dist"
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
