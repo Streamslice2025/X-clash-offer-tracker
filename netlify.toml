@@ -1,7 +1,7 @@
 [build]
   base    = "xclash-offer-tracker"
   command = "npm install && npm run build"
-  publish = "xclash-offer-tracker/dist"
+  publish = "dist"
 
 [[redirects]]
   from   = "/*"
